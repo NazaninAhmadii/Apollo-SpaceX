@@ -1,0 +1,38 @@
+{
+    "name": "apollo-spaceX-server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "start": "nodemon src/index.js",
+        "start:ci": "node src/index.js"
+    },
+    "author": "Nazanin",
+    "license": "ISC",
+    "dependencies": {
+        "apollo-datasource": "^0.7.2",
+        "apollo-datasource-rest": "^0.9.5",
+        "apollo-server": "^2.19.0",
+        "apollo-server-testing": "^2.19.0",
+        "dotenv": "^8.2.0",
+        "graphql": "^15.4.0",
+        "isemail": "^3.2.0",
+        "nodemon": "^2.0.6",
+        "sequelize": "^6.3.5",
+        "sqlite3": "^5.0.0"
+    },
+    "devDependencies": {
+        "apollo-link": "^1.2.14",
+        "apollo-link-http": "^1.5.17",
+        "jest": "^26.6.3",
+        "nock": "^13.0.5",
+        "node-fetch": "^2.6.1"
+    },
+    "jest": {
+        "testPathIgnorePatterns": [
+            "/node_modules/",
+            "/__utils"
+        ]
+    }
+}
