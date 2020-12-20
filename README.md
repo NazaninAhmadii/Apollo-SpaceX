@@ -1,5 +1,5 @@
-# Apollo SpaceX (licensed by Apollo tutorial Website)
-This is the fullstack app for the [Apollo tutorial](http://apollographql.com/docs/tutorial/introduction.html). 🚀
+# Apollo SpaceX
+This is the fullstack app from the [Apollo tutorial](http://apollographql.com/docs/tutorial/introduction.html). 🚀
 
 ## Run Sercer
 
